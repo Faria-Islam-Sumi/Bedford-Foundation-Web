@@ -1,0 +1,197 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+.header-background {
+    background: url("background.webp") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    height: 35vh;
+    width: 100%;
+
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-content p {
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #2fe699;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.navbar-left p {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.navbar-left span {
+    display: block;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.navbar-right ul{
+    display: flex;
+    align-items: center;
+}
+.navbar-right ul li {
+    display: inline-flex;
+    padding: 0 15px;
+}
+
+.navbar-right ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.take-action-button {
+    border-style: solid;
+    
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.main-content {
+    margin: 75px 100px 30px;
+    text-align: center;
+    padding: 20px;
+}
+.first p{
+    font-size: 30px;
+    font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.latin-word {
+    font-style: italic;
+}
+.latin-word span{
+    color: #2fe699;
+}
+
+.image-layout {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    height: 70%;
+    width: 90%;
+}
+
+.image span{
+    color: #39d604ec;
+    font-size: 18px;
+}
+
+footer {
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   color: whitesmoke;
+   height: 10vh;
+   width: 100%;
+}
+.first-footer{
+    background-color: gray;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.second-footer {
+    background-color: black;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.second-footer span{
+    color: whitesmoke;
+}
+.second-footer span a{
+    color: whitesmoke;
+}
+
+h2 {
+    color: #2fe699;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: white;
+    color: black;
+}
+
+.fa-twitter {
+    background: white;
+    color: black;
+}
+
+.fa-linkedin {
+    background: white;
+    color: black;
+}
+
+.fa-instagram {
+    background: white;
+    color: black;
+}
